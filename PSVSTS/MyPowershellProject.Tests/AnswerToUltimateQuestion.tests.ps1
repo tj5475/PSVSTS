@@ -7,7 +7,7 @@ Describe "AnswerToUltimateQuestion" {
  
     Context "Exists" {
  
-        It "Runs" {
+        It "should return 42" {
  
             AnswerToUltimateQuestion | Should Be 42
         }
