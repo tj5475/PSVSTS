@@ -4,11 +4,12 @@ $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".tests.", ".")
 
 
 Describe "AnswerToUltimateQuestion" {
-	Context "Exists" {
-		It "Runs" {
-           #$actual = AnswerToUltimateQuestion 
-	       #$actual | Should Be 42
-			AnswerToUltimateQuestion | Should Be 42 
-		}
-	}
+ 
+    Context "Exists" {
+ 
+        It "Runs" {
+ 
+            AnswerToUltimateQuestion | Should Be 42
+        }
+    }
 }
